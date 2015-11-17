@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'BandaRegular';
+  src: url('BandaRegular.eot?#iefix') format('embedded-opentype'),  url('BandaRegular.otf')  format('opentype'),
+	     url('BandaRegular.woff') format('woff'), url('BandaRegular.ttf')  format('truetype'), url('BandaRegular.svg#BandaRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

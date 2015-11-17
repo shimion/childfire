@@ -1,0 +1,106 @@
+/*--
+	Theme Name: theme52266
+	Theme URI: http://info.template-help.com/help/
+	Description: A theme for Wordpress 3.8.x
+	Author: Template_Help.com
+	Author URI: http://info.template-help.com/help/
+	Template: CherryFramework
+	Version: 3.1.2
+--*/
+
+/* ----------------------------------------
+	Please, You may put custom css here
+---------------------------------------- */@font-face {
+	font-family: 'Steelfish Outline';
+	src: url('fonts/SteelfishOutline-Regular.eot');
+	src: url('fonts/SteelfishOutline-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/SteelfishOutline-Regular.woff') format('woff'),
+		url('fonts/SteelfishOutline-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('fonts/GothamBold.eot');
+	src: url('fonts/GothamBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GothamBold.woff') format('woff'),
+		url('fonts/GothamBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Steelfish Rg ita';
+	src: url('fonts/SteelfishRg-Italic.eot');
+	src: url('fonts/SteelfishRg-Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/SteelfishRg-Italic.woff') format('woff'),
+		url('fonts/SteelfishRg-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Steelfish Rg';
+	src: url('fonts/SteelfishRg-Regular.eot');
+	src: url('fonts/SteelfishRg-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/SteelfishRg-Regular.woff') format('woff'),
+		url('fonts/SteelfishRg-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeosansLight';
+	src: url('fonts/GeosansLight.eot');
+	src: url('fonts/GeosansLight.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GeosansLight.woff') format('woff'),
+		url('fonts/GeosansLight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeosansLight';
+	src: url('fonts/GeosansLight-Oblique.eot');
+	src: url('fonts/GeosansLight-Oblique.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GeosansLight-Oblique.woff') format('woff'),
+		url('fonts/GeosansLight-Oblique.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('fonts/BebasNeue.eot');
+	src: url('fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),
+		url('fonts/BebasNeue.woff') format('woff'),
+		url('fonts/BebasNeue.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'BandaRegular';
+  src: url('fonts/BandaRegular.eot?#iefix') format('embedded-opentype'),  url('fonts/BandaRegular.otf')  format('opentype'),
+	     url('fonts/BandaRegular.woff') format('woff'), url('fonts/BandaRegular.ttf')  format('truetype'), url('fonts/BandaRegular.svg#BandaRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.header .nav__primary .sf-menu > li > a:hover, .header .nav__primary .sf-menu > li.sfHover> a, .header .nav__primary .sf-menu > li.current-menu-item > a, .header .nav__primary .sf-menu > li.current_page_item > a{font-family: 'BandaRegular';}
+.header .nav__primary .sf-menu > li > a{font-family: 'BandaRegular';}
+.top_search .btn-search{background: #a5272b !important;}
+.parallax-slider #mainCaptionHolder .container strong, .parallax-slider #mainCaptionHolder .container a{font-family: 'Gotham';}
+.parallax-slider #mainCaptionHolder .container .secondaryCaption > div, .parallax-slider #mainCaptionHolder .container strong, .parallax-slider #mainCaptionHolder .container a{ color:#311515 !important;}
+.hero-unit h1, .title-box_primary{font-family: 'BebasNeue' !important; color:#da262c !important; font-size:78.53px !important; margin: 0 0 26px 0 !important;}
+.parallax-slider #mainCaptionHolder .container strong{font-size:50px !important; }
+.parallax-slider #mainCaptionHolder .container a{font-size:35px !important; }
+.parallax-slider #mainCaptionHolder .container .primaryCaption{}
+.list_2 li .thumbnail{border: 1px solid #f64448 !important;}
+a.btn-link:before{ background:#f64448 !important}
+.main-holder input[type="submit"], .main-holder input[type="reset"]{border: 2px solid #f64448 !important; color: #f64448 !important;}
+.footer .footer-widgets .social-nets-wrapper ul li a:before{color:#f64448 !important}
+.main-holder input[type="submit"]:hover, .main-holder input[type="reset"]:hover{ background:#f64448 !important; color:#fff !important}
